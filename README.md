@@ -1,0 +1,2 @@
+# Sush_MLE_MiniProject_Churn_Prediction_AWS
+Mini Project
