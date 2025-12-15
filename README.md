@@ -4,18 +4,11 @@ This project builds an end-to-end customer churn prediction model using AWS Sage
 The goal is to predict whether a customer will be retained (`retained = 1`) or churn (`retained = 0`)
 based on behavioral, transactional, and engagement features.
 
-## Dataset
-- Source: Kaggle (Online Tea Retail Store)
-- Format: CSV
-- Target variable: `retained`
-
 ## Project Structure
 - `data_wrangler_partial_execution/`
   - Data exploration, cleaning, and feature engineering using SageMaker Data Wrangler
-- `sagemaker_model_evaluation/`
+- `sagemaker_studio_model_evaluation/`
   - Model training, deployment, and evaluation using SageMaker built-in XGBoost
-- `data/`
-  - Input dataset
 
 ## Key Steps
 1. Data exploration and feature engineering using SageMaker Data Wrangler
