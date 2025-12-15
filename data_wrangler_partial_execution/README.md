@@ -23,6 +23,9 @@ limitations on processing instance types.
 - Subscription score
 - Digital engagement indicators
 - Purchase intensity
-- One-hot encoding of categorical variables
+
+Categorical variables (`favday`, `city`) were intentionally retained as string
+columns at this stage. Encoding of categorical variables was deferred to the
+model training phase, as encoding strategy depends on the chosen algorithm.
 
 These same features were recreated using pandas for downstream model training.
